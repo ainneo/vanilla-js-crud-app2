@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const bookURL = `http://localhost:3000/books`
     let allBooks = [] //storing book data
     
-    //*** Read */
+    //READ
     //fetching data and iterating data into UI
     //run forEach on bookData, which will run a function on each individual book in bookData
     fetch(`${bookURL}`)
@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
       })) 
   
 
-     //***Create*/
+     //CREATE
      //This is listening for an event called ‘submit’ on bookForm
      //We have an input type “submit” (<input type="submit" value="Add Book">) 
      //if input is submitted then it will trigger the functions in this event listener
@@ -83,11 +83,8 @@ document.addEventListener('DOMContentLoaded', function() {
   
     }) // end of eventListener for adding a book
   
-
-
-    
-    // If you go to your Book Lister page and hit refresh, you can try typing in a title, author name, a URL for your book cover, and a description. When you’re ready, hit “Add Book” and…
-    //https://medium.com/@jmartinez729/full-crud-with-javascript-1c3fb77f81f
+    //UPDATE
+    //Now that we can CREATE and READ, we should be able to UPDATE our information
     bookContainer.addEventListener('click', (e) => {
       if (e.target.dataset.action === 'edit') {
   

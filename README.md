@@ -13,6 +13,6 @@ On start the page opens with the default json obj, we only have one book.
 We can add and remove books by entering and deleting the data.
 
 *** Notes: 
-- needs to add input validation
+- need to add input validation with regex
 - for more info: https://medium.com/@jmartinez729/full-crud-with-javascript-1c3fb77f81f
 
