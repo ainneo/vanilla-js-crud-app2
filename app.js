@@ -143,6 +143,7 @@ document.addEventListener('DOMContentLoaded', function() {
             })
         }) // end of this event Listener for edit submit
   
+                //D of CRUD delete
       } else if (e.target.dataset.action === 'delete') {
         document.querySelector(`#book-${e.target.dataset.id}`).remove()
           fetch(`${bookURL}/${e.target.dataset.id}`, {
