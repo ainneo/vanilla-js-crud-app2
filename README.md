@@ -1,4 +1,4 @@
-## This site is a vanilla JavaScript CRUD APP
+## This site is a vanilla JavaScript CRUD app
 Built with vanilla JS, HTML, and CSS. See directions below for installing and using the json server.
 
 ### Download and run JSON server from your terminal
@@ -11,7 +11,7 @@ If you have permission issues and write acess to your /usr/local/lib/node_module
 then run ```sudo chown -R $USER /usr/local/lib/node_modules```
 https://flaviocopes.com/npm-fix-missing-write-access-error/
 
-### Misc
+### On Page Start
 On start the page opens with the default json obj, we only have one book.
 We can add and remove books by entering and deleting the data.
 
