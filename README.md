@@ -1,5 +1,5 @@
 ## This site is a vanilla JavaScript CRUD APP
-This site is built with vanilla JS, HTML, and CSS. See directions below for installing and using the json server.
+Built with vanilla JS, HTML, and CSS. See directions below for installing and using the json server.
 
 ### Download and run JSON server from your terminal
 Type ```npm install -g json-server``` and once that’s done installing, 
